@@ -1,11 +1,16 @@
 import './App.css'
-import Button from "./components/button/Button"
+import Button from "./components/Button/Button"
+import NavBar from "./components/NavBar/NavBar"
+import ItemListContainer from "./components/ItemListContainer/ItemListContainer"
+import CartWidget from "./components/CartWidget/CartWidget"
 
 function App() {
 
   return (
       <div>
-        <Button/>
+        <NavBar/>
+        <ItemListContainer/>
+        <CartWidget/>
       </div>
   )
 }
